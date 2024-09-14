@@ -1,0 +1,160 @@
+/*Background si text*/
+
+header {
+    background-color: #ffffff;
+}
+
+.rectangle-wrapper {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: League Spartan, sans-serif;
+}
+
+.wmare {
+    background-image: url("../../../static/wthrlyapp/assets/stg2.svg");
+    background-repeat: no-repeat;
+    z-index: 1;
+    display: flex;
+}
+
+i {
+    color: #1A5E63;
+}
+
+/*Background si text*/
+/*Form*/
+
+.custom-input {
+    font-size: 1.2rem;
+    border-radius: 40px
+}
+
+.custom-input::placeholder {
+    font-size: 1.2rem;
+    color:gray ;
+}
+
+.custom-input:focus {
+    border: 1px solid #B1AAAA;
+    outline: none;
+    box-shadow: none;
+}
+
+/*Form*/
+/*Butoane*/
+
+.btn-custom {
+    background-color: transparent;
+    border: 0px;
+    padding:0;
+    margin:0;
+    margin-top:5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-custom .bi-person-fill,
+.notFav .bi-star-fill,
+.Fav .bi-star {
+    display: none;
+}
+
+.btn-custom:hover .bi-person,
+.notFav:hover .bi-star,
+.Fav:hover .bi-star-fill{
+    display: none;
+}
+
+.btn-custom:hover .bi-person-fill,
+.notFav:hover .bi-star-fill,
+.Fav:hover .bi-star{
+    display: inline;
+}
+
+/*Butoane*/
+/*Favorite*/
+
+.infoScurt {
+    height:0%;
+    overflow:hidden;
+    transition:0.6s;
+}
+
+.infoScurt.active{
+    height:100%;
+}
+
+.rectangle-custom {
+    height:250px;
+    width:200px;
+    background-color:#ffffff;
+    border-radius: 12px;
+    border: none;
+    transition:.3s;
+}
+
+.rectangle-custom:hover {
+    background-color:#1A5E63;
+    color:white;
+}
+
+.rectangle-custom #info {
+    display:none;
+}
+
+.rectangle-custom:hover #info {
+    display:inline;
+}
+
+.rectangle-custom .bi-geo-alt-fill {
+    display:none;
+}
+
+.rectangle-custom:hover .bi-geo-alt {
+
+    display:none;
+}
+
+.rectangle-custom:hover .bi-geo-alt-fill {
+    display: inline;
+    color:white;
+}
+
+/*Favorite*/
+/*Header*/
+
+.dropdown-custom {
+    padding:0;
+    border-radius: 12px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color:#B1AAAA;
+    border-radius: 11px;
+}
+
+/*Header*/
+/*Slider Bar*/
+
+.scroll::-webkit-scrollbar {
+    height: 8px;
+}
+
+.scroll::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background: #B1AAAA;
+    border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb:hover {
+    background: gray;
+}
+
+/*Slider Bar*/
