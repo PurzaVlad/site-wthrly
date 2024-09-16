@@ -10,16 +10,16 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
   {% load static %}
-  <link rel="stylesheet" href="../../static/wthrlyapp/css/styles.css">
-  <script src="{% static 'wthrlyapp/js/jsaction.js' %}"></script>
+  <link rel="stylesheet" href="{% static 'wthrlyapp/css/styles.css' %}">
   <script src="{% static 'wthrlyapp/js/jslocalitate.js' %}"></script>
+  <script src="{% static 'wthrlyapp/js/jsaction.js' %}"></script>
 </head>
 
 <body>
   <header class="d-flex align-items-center justify-content-center shadow-sm" style="z-index: 1000; position: sticky; top:0">
     <div class="col-7 d-flex align-items-center justify-content-between p-1">
 
-      <a href="{% url 'wthrlyapp:index'%}"><img src="../../static/wthrlyapp/assets/wthr.jpg" style="height:55px;width:auto"></a>
+      <a href="{% url 'wthrlyapp:index'%}"><img src="{% static 'wthrlyapp/assets/wthr.jpg' %}" style="height:55px;width:auto"></a>
 
       <div class= "d-flex align-items-center justify-content-center gap-1"style="height:10px">
         <form class="d-flex align-items-center justify-content-center" id="oras-form" >
