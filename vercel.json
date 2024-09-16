@@ -6,12 +6,12 @@
     }],
     "routes": [
         {
-            "src": "/(.*)",
-            "dest": "wthrly/wsgi.py"
-        },
-        {
             "src": "/static/(.*)",
             "dest": "staticfiles/$1"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "wthrly/wsgi.py"
         }
     ]
 }
