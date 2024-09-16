@@ -8,6 +8,10 @@
         {
             "src": "/(.*)",
             "dest": "wthrly/wsgi.py"
+        },
+        {
+            "src": "/static/(.*)",
+            "dest": "/static/$1"
         }
     ]
 }
