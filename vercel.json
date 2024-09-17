@@ -1,17 +1,23 @@
 {
-    "builds": [{
-        "src": "wthrly/wsgi.py",
+    "version": 2,
+    "builds": [
+      {
+        "src": "wthrly/manage.py",
         "use": "@vercel/python",
-        "config": { "maxLambdaSize": "15mb", "runtime": "python3.12" }
-    }],
-    "routes": [
-        {
-            "src": "/static/(.*)",
-            "dest": "staticfiles/$1"
-        },
-        {
-            "src": "/(.*)",
-            "dest": "wthrly/wsgi.py"
+        "config": {
+          "maxLambdaSize": "50mb"
         }
-    ]
-}
+      }
+    ],
+    "routes": [
+      {
+        "src": "/static/(.*)",
+        "dest": "/staticfiles/$1"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/wthrlyapp/templates/wthrlyapp/$1"
+      }
+    ],
+    "buildCommand": "python manage.py collectstatic --noinput"
+  }
