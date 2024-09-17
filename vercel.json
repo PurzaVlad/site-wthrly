@@ -12,7 +12,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/wthrly/wsgi.py"
+      "dest": "wthrly/wsgi.py"
     }
   ]
 }
