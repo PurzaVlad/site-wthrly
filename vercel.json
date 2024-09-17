@@ -15,6 +15,5 @@
       "src": "/(.*)",
       "dest": "wthrly/wsgi.py"
     }
-  ],
-  "buildCommand": "python3 manage.py collectstatic --noinput"
+  ]
 }
