@@ -1,13 +1,16 @@
 {
-    "builds": [{
-        "src": "wthrly/wsgi.py",
-        "use": "@vercel/python"
-    }],
-    "routes": [
-        {
-            "src": "/static/(.*)",
-            "dest": "/staticfiles/$1"
-        }
-    ],
-    "buildCommand": "python3 manage.py collectstatic --noinput"
+  "version": 2,
+  "builds": [
+    {
+      "src": "wthrly/manage.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/static/(.*)",
+      "dest": "/staticfiles/$1"
+    }
+  ],
+  "buildCommand": "python3 manage.py collectstatic --noinput"
 }
