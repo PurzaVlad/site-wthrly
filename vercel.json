@@ -6,7 +6,7 @@
   },
   "builds": [
     {
-      "src": "wthrlyapp/wsgi.py",
+      "src": "wthrly/wsgi.py",
       "use": "@vercel/python",
       "config": {
         "maxLambdaSize": "50mb"
@@ -16,7 +16,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/wthrlyapp/wsgi.py"
+      "dest": "/wthrly/wsgi.py"
     }
   ]
 }
