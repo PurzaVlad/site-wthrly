@@ -15,3 +15,5 @@ Technologies Used:
 &nbsp;&nbsp;&nbsp;&nbsp;-Frontend: HTML, CSS, Bootstrap, JavaScript;  
 &nbsp;&nbsp;&nbsp;&nbsp;-Weather API: OpenWeatherMap free API;  
 &nbsp;&nbsp;&nbsp;&nbsp;-Database: SQLite(default Django database);  
+
+https://github.com/PurzaVlad/site-wthrly/blob/main/imagini/local.png
