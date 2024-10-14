@@ -13,7 +13,7 @@
 <body>
     <header class="d-flex align-items-center justify-content-center shadow-sm" style="z-index: 1000; position: sticky; top:0;">
         <div class="col-7 d-flex p-2 align-items-center justify-content-between">
-            <a href="{% url 'wthrlyapp:index'%}"><img src="../../static/wthrlyapp/css/styles.css" style="height:55px;width:auto;"></a>
+            <a href="{% url 'wthrlyapp:index'%}"><img src="{% static 'wthrlyapp/assets/wthr.jpg' %}" style="height:55px;width:auto"></a>
             <div class="dropdown">
                 <button  class="btn btn-custom mt-2" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false"  data-bs-target="#dropdownMenu">
                     <h2><i class="bi bi-person"></i></h2>
