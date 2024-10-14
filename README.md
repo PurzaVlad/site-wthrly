@@ -4,17 +4,17 @@ Wthrly is a weather forecasting website built as a personal project using django
 
 Features:  
 &nbsp;&nbsp;&nbsp;&nbsp;-Real-time weather data: Accurate weather information;  
-  -City-based search: Quickly find the weather for a specific location;  
-  -Detailed weather info: View temperature, humidity, forecast and many more;  
-  -Favorite cities feature: Once logged in, you can choose to have favorite locations;  
-  -Weather map: See the precipitation map for your searched city;  
-  -Responsive design: The site is responsive, providing a pleasant experience;  
+&nbsp;&nbsp;&nbsp;&nbsp;-City-based search: Quickly find the weather for a specific location;  
+&nbsp;&nbsp;&nbsp;&nbsp;-Detailed weather info: View temperature, humidity, forecast and many more;  
+&nbsp;&nbsp;&nbsp;&nbsp;-Favorite cities feature: Once logged in, you can choose to have favorite locations;  
+&nbsp;&nbsp;&nbsp;&nbsp;-Weather map: See the precipitation map for your searched city;  
+&nbsp;&nbsp;&nbsp;&nbsp;-Responsive design: The site is responsive, providing a pleasant experience;  
 
 Technologies Used:  
-  -Backend: Django(Python);  
-  -Frontend: HTML, CSS, Bootstrap, JavaScript;  
-  -Weather API: OpenWeatherMap free API;  
-  -Database: SQLite(default Django database);  
+&nbsp;&nbsp;&nbsp;&nbsp;-Backend: Django(Python);  
+&nbsp;&nbsp;&nbsp;&nbsp;-Frontend: HTML, CSS, Bootstrap, JavaScript;  
+&nbsp;&nbsp;&nbsp;&nbsp;-Weather API: OpenWeatherMap free API;  
+&nbsp;&nbsp;&nbsp;&nbsp;-Database: SQLite(default Django database);  
 
 To run on locally:  
   python -m venv venv  
