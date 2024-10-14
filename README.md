@@ -3,7 +3,7 @@
 Wthrly is a weather forecasting website built as a personal project using django.  
 
 Features:  
-  -Real-time weather data: Accurate weather information;  
+&nbsp;&nbsp;&nbsp;&nbsp;-Real-time weather data: Accurate weather information;  
   -City-based search: Quickly find the weather for a specific location;  
   -Detailed weather info: View temperature, humidity, forecast and many more;  
   -Favorite cities feature: Once logged in, you can choose to have favorite locations;  
