@@ -15,10 +15,3 @@ Technologies Used:
 &nbsp;&nbsp;&nbsp;&nbsp;-Frontend: HTML, CSS, Bootstrap, JavaScript;  
 &nbsp;&nbsp;&nbsp;&nbsp;-Weather API: OpenWeatherMap free API;  
 &nbsp;&nbsp;&nbsp;&nbsp;-Database: SQLite(default Django database);  
-
-To run on locally:  
-  python -m venv venv  
-  venv\Scripts\activate   
-  pip install django  
-  python manage.py runserver  
-  
